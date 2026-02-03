@@ -1,0 +1,6 @@
+[X2Ability_NotSoLongWatch]
+
+strEnabledName = "Long Watch: Squadsight Enabled"
+strDisabledName = "Long Watch: Squadsight Disabled"
+strEnabledHelpText = "Long Watch shots can utilize squadsight."
+strDisabledHelpText = "Long Watch shots cannot utilize squadsight."

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>ad7e9cb2-1f2d-4da1-9698-ea57dc80b7d9</Guid>
+    <Name>MeristNotSoLongWatch</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>MeristNotSoLongWatch</AssemblyName>
+    <RootNamespace>MeristNotSoLongWatch</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SolutionRoot>$(MSBuildProjectDirectory)\..\</SolutionRoot>
+    <ScriptsDir>$(SolutionRoot).scripts\\</ScriptsDir>
+    <BuildCommonRoot>$(ScriptsDir)X2ModBuildCommon\</BuildCommonRoot>
+  </PropertyGroup>
+  <Import Project="$(BuildCommonRoot)XCOM2.targets" />
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Config\Base\" />
+    <Folder Include="Content\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\MeristNotSoLongWatch\" />
+    <Folder Include="Src\MeristNotSoLongWatch\Classes\" />
+    <Content Include=".gitignore" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="ReadMe.txt" />
+    <Content Include="Screenshot01.jpg" />
+    <Content Include="Config\XComAbilityToSlotReassignment.ini" />
+    <Content Include="Config\XComLW_Overhaul.ini" />
+    <Content Include="Config\Base\XComEditor.ini" />
+    <Content Include="Config\Base\XComEngine.ini" />
+    <Content Include="Config\Base\XComGame.ini" />
+    <Content Include="Content\UILibrary_MeristNotSoLongWatch.upk" />
+    <Content Include="Localization\MeristNotSoLongWatch.int" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\MeristNotSoLongWatch\Classes\X2Ability_NotSoLongWatch.uc" />
+    <Content Include="Src\MeristNotSoLongWatch\Classes\X2Condition_LongWatchToggle.uc" />
+    <Content Include="Src\MeristNotSoLongWatch\Classes\X2Condition_NotSoLongWatch.uc" />
+    <Content Include="Src\MeristNotSoLongWatch\Classes\X2DLCInfo_MeristNotSoLongWatch.uc" />
+    <Content Include="Src\MeristNotSoLongWatch\Classes\X2Effect_ShowLongWatch.uc" />
+    <Content Include="Src\MeristNotSoLongWatch\Classes\X2Effect_ToggleLongWatch.uc" />
+  </ItemGroup>
+</Project>

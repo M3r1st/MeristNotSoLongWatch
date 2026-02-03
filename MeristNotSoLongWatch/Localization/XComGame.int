@@ -1,0 +1,11 @@
+[M31_LongWatch_ToggleOn X2AbilityTemplate]
+LocFriendlyName="Enable Long Watch"
+LocFlyOverText="Long Watch: Enabled"
+LocLongDescription="Allow Long Watch to utilize squadsight."
+LocHelpText="Allow Long Watch to utilize squadsight."
+
+[M31_LongWatch_ToggleOff X2AbilityTemplate]
+LocFriendlyName="Disable Long Watch"
+LocFlyOverText="Long Watch: Disabled"
+LocLongDescription="Prevent Long Watch from utilizing squadsight."
+LocHelpText="Prevent Long Watch from utilizing squadsight."
