@@ -40,5 +40,6 @@
     <Content Include="Src\MeristNotSoLongWatch\Classes\X2DLCInfo_MeristNotSoLongWatch.uc" />
     <Content Include="Src\MeristNotSoLongWatch\Classes\X2Effect_ShowLongWatch.uc" />
     <Content Include="Src\MeristNotSoLongWatch\Classes\X2Effect_ToggleLongWatch.uc" />
+    <Content Include="PublishedFileId.ID" />
   </ItemGroup>
 </Project>
